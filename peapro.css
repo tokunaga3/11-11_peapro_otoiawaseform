@@ -1,0 +1,32 @@
+.form{
+  /* background-color: red; */
+  border:2px solid;
+
+}
+span{
+  color:red;
+}
+
+#sitsumon{
+  /* background-color:red; */
+  height:200px;
+  width:600px;
+}
+
+.button{
+  background-color:#FF9900 ;
+  color:white;
+  margin-bottom:  20px;
+  height:40px;
+}
+p {
+  margin-left: 10px;
+  margin-bottom: 0;
+}
+
+input{
+  margin-left: 10px;
+}
+h1{
+  border-bottom:2px solid;
+}
