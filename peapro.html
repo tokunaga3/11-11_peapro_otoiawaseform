@@ -5,7 +5,17 @@
     <title>お問い合わせフォーム</title>
     <link rel="stylesheet" href="nomalize.css">
     <link rel="stylesheet" type="text/css" href="peapro.css">
-
+    <script type="text/javascript">
+   window.onload = function () {
+       document.getElementById( "mailinput" ).onkeyup = function(){
+               mailvewgetValue();
+           };
+       }
+   function mailvewgetValue() {
+       var $mailvewvalue = document.getElementById( "mailinput" ).value;
+       document.getElementById( "mailoutput" ).innerHTML = $mailvewvalue;
+       }
+      </script>
   </head>
   <body>
     <h1>お問い合わせフォーム</h1>
@@ -17,7 +27,11 @@
       <p>貴社名<span>必須</span></p>
       <input type="text" name="" value="">
       <p>メールアドレス<span>必須</span></p>
-      <input type="text" name="" value="">
+      <input type="email" name="mail" id="mailinput" size="40">
+
+      </div>
+      <div id="mailoutput">
+      </div>
       <p>電話番号<span>必須</span></p>
       <input type="tel" name="" value="">
       <p>ご質問内容をご記入ください</p>

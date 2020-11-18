@@ -30,3 +30,17 @@ input{
 h1{
   border-bottom:2px solid;
 }
+#mailoutput {
+  font-size: 32px;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  overflow: hidden;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 170%;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  line-height: normal;
+}
